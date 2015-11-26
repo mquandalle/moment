@@ -7,7 +7,7 @@ var packageJson = JSON.parse(Npm.require("fs").readFileSync('component.json'));
 Package.describe({
   name: packageName,
   summary: 'Moment.js (official): parse, validate, manipulate, and display dates - official Meteor packaging',
-  version: '1.0.0', //packageJson.version,
+  version: '1.0.1', //packageJson.version,
   git: 'https://github.com/moment/moment.git'
 });
 
