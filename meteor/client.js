@@ -34,7 +34,7 @@ if (Package['tap:i18n']) {
   Meteor.startup(function() {
     Tracker.autorun(function() {
       var language = TAPi18n.getLanguage();
-      var localePath = 'packages/mquandalle_moment/locale/' + language + '.js';
+      var localePath = 'packages/mquandalle_moment/locale/' + language.toLowerCase() + '.js';
       if (alreadyLoadedLanguages.indexOf(language) === -1) {
         $.ajax({
           url: Meteor.absoluteUrl(localePath),
