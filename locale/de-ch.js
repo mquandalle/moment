@@ -1,8 +1,9 @@
 // moment.js locale configuration
-// locale : austrian german (de-at)
+// locale : swiss german (de-ch)
 // author : lluchs : https://github.com/lluchs
 // author: Menelion Elensúle: https://github.com/Oire
 // author : Martin Groller : https://github.com/MadMG
+// author : urmel1960: https://github.com/urmel1960
 
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
